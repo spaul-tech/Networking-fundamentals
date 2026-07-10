@@ -1,9 +1,9 @@
-# DNS
+# 🌐DNS
 **DNS** stands for Domain Name System.  
 - It translates easy to read domain-names(like google.com) into computer friendly IP address.
 - This allows user to browse web without the need to memorize IP address.
 
-### Records in DNS
+### 🚩Records in DNS
 |Record|Description|
 |-|-|
 |A| IPv4 record|
