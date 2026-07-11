@@ -36,7 +36,7 @@ Since Ethernet frames require a destination MAC address, ARP acts as a bridge be
 
 ## 🖼️ ARP Communication
 
-![ARP Communication](images/arp-communication.png)
+<img src="images/arp-communication.jpeg" alt="ARP Communication" width="600">
 
 ---
 
@@ -49,31 +49,13 @@ An **ARP Cache** is a temporary table maintained by the operating system that st
 | IP Address | MAC Address |
 |------------|-------------|
 | 192.168.1.1 | 00:11:22:33:44:55 |
-| 192.168.1.20 | AA:BB:CC:DD:EE:FF |
-
----
-
-## 🛠️ Common ARP Commands
-
-### 🐧 Linux
+| 192.168.1.20 | AA:BB:CC:DD:EE:FF |     
+  
+**To see arp cache**
 
 ```bash
 arp -a
 ```
-
-or
-
-```bash
-ip neigh
-```
-
-### 🪟 Windows
-
-```cmd
-arp -a
-```
-
----
 
 ## 📚 Key Terms
 
