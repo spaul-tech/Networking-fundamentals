@@ -36,25 +36,7 @@ Since Ethernet frames require a destination MAC address, ARP acts as a bridge be
 
 ## 🖼️ ARP Communication
 
-```text
-+-----------+                              +-----------+
-| Device A  |                              | Device B  |
-| IP: .10   |                              | IP: .20   |
-| MAC: AA   |                              | MAC: BB   |
-+-----------+                              +-----------+
-
-        📢 ARP Request (Broadcast)
-"Who has 192.168.1.20?"
-
-                ─────────────────────────▶
-
-        📩 ARP Reply (Unicast)
-"192.168.1.20 is at MAC BB"
-
-                ◀─────────────────────────
-
-        📦 Data is sent to MAC BB
-```
+![ARP Communication](images/arp-communication.png)
 
 ---
 
