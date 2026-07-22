@@ -13,3 +13,4 @@ A collection of networking concepts and hands-on labs as part of my cybersecurit
 | 🌍 **[NAT](06-NAT/)** | Explore Network Address Translation and IP conservation. |
 | 🛡️ **[Firewall](07-Firewall/)** | Learn how firewalls filter and protect network traffic. |
 | 📡 **[DHCP](08-DHCP/)** | Understand automatic IP address assignment using DHCP. |
+| 🔒 **[VPN](09-VPN/)** |Learn how VPNs create secure encrypted tunnels, protect data, enable remote access, and the common VPN protocols used in networking and cybersecurity.|
